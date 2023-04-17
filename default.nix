@@ -24,8 +24,8 @@ in rec {
             model-meta  = mkData "model.meta" ./data/models/2stems/model.meta;
         };
         gender = {
-            proto   = mkData "proto" ./data/models/gender/proto;
-            weights = mkData "weights" ./data/models/gender/weights;
+            proto   = mkData "proto.prototxt" ./data/models/gender/proto.prototxt;
+            weights = mkData "weights.caffemodel" ./data/models/gender/weights.caffemodel;
         };
     };
     records = {
