@@ -1,9 +1,9 @@
-{}:
+{ pkgs }:
 let 
     mkData = name: data: {
         inherit name data;
     };
-in rec {
+in with pkgs; rec {
     configs = {
         book-notes = mkData "book-notes.csv" ./data/configs/book-notes.csv;
     };
@@ -30,5 +30,12 @@ in rec {
     };
     records = {
         crypt = mkData "HOhuKN.tyz" ./data/records/HOhuKN.tyz;
+    };
+    themes = {
+        nordic-gtk4 = {
+            css = mkData "gtk.css" (callPackage ./data/themes/nordic-gtk4/css.nix { dark = false; });
+            css-dark = mkData "gtk-dark.css" (callPackage ./data/themes/nordic-gtk4/css.nix { dark = true; });
+            thumbnail = mkData "thumbnail.png" ./data/themes/nordic-gtk4/thumbnail.png;
+        };
     };
 }
