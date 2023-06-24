@@ -33,8 +33,9 @@ in with pkgs; rec {
     };
     themes = {
         nordic-gtk4 = {
-            css = mkData "gtk.css" (callPackage ./data/themes/nordic-gtk4/css.default { });
-            css-dark = mkData "gtk-dark.css" (callPackage ./data/themes/nordic-gtk4/css-dark.default { });
+            css = mkData "gtk.css" (callPackage ./data/themes/nordic-gtk4/css.nix { dark = false; });
+            css-dark = mkData "gtk-dark.css" (callPackage ./data/themes/nordic-gtk4/css.nix { dark = true; });
+            thumbnail = mkData "thumbnail.png" ./data/themes/nordic-gtk4/thumbnail.png;
         };
     };
 }
