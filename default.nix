@@ -15,6 +15,7 @@ in with pkgs; rec {
         ajt-logo-white = mkData "ajt.png" ./data/img/ajt.png;
         anix-logo-bmp  = mkData "anixpkgs.png" ./data/img/anixpkgs.png;
         anix-logo-svg  = mkData "anixpkgs.svg" ./data/img/anixpkgs.svg;
+        blank-svg      = mkData "blank.svg" ./data/img/blank.svg;
     };
     models = {
         spleeter = {
