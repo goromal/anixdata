@@ -1,0 +1,294 @@
+{
+    "cities": [
+        {
+            "name": "Ojai",
+            "x": 78,
+            "y": 69
+        },
+        {
+            "name": "Oak View",
+            "x": 29,
+            "y": 121
+        },
+        {
+            "name": "Ventura",
+            "x": 31,
+            "y": 249
+        },
+        {
+            "name": "Oxnard",
+            "x": 136,
+            "y": 337
+        },
+        {
+            "name": "Camarillo",
+            "x": 259,
+            "y": 316
+        },
+        {
+            "name": "Point Mugu",
+            "x": 201,
+            "y": 427
+        },
+        {
+            "name": "Santa Paula",
+            "x": 240,
+            "y": 170
+        },
+        {
+            "name": "Fillmore",
+            "x": 364,
+            "y": 121
+        },
+        {
+            "name": "Moorpark",
+            "x": 397,
+            "y": 243
+        },
+        {
+            "name": "Piru",
+            "x": 474,
+            "y": 105
+        },
+        {
+            "name": "Castaic",
+            "x": 622,
+            "y": 26
+        },
+        {
+            "name": "Santa Clarita",
+            "x": 695,
+            "y": 130
+        },
+        {
+            "name": "Simi Valley",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Oak Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Thousand Oaks",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Newbury Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Lynn Ranch",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Santa Rosa Valley",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Lagol",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Somis",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Saticoy",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Channel Islands Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "El Matador Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Point Dume",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Malibu",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Cornell",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Hidden Valley",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Westlake Village",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Agoura Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Sylmar",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Kagel Canyon",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "San Fernando",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Twin Lakes",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Porter Ranch",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Granada Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Pacoima",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Sunland-Tujunga",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "La Crescenta-Montrose",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Burbank",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Sun Valley",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "North Hollywood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Van Nuys",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Panorama City",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Northridge",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Reseda",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Winnetka",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Canoga Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Bell Canyon",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Hidden Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Woodland Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Calabasas",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Tarzana",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Encino",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Sherman Oaks",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Glendale",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Topanga",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Eastern Malibu",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Santa Monica",
+            "x": 100,
+            "y": 100
+        }
+    ]
+}

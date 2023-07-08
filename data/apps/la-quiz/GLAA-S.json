@@ -1,0 +1,309 @@
+{
+    "cities": [
+        {
+            "name": "Rolling Hills Estates",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Rolling Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "San Pedro",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Terminal Island",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Wilmington",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Signal Hill",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Long Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Belmont Shore",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Seal Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Sunset Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Los Alamitos",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Cypress",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Stanton",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Westminster",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Midway City",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Oak View",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Huntington Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Fountain Valley",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Garden Grove",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Disneyland",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Orange",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Santa Ana",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "South Coast Metro",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Costa Mesa",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Santa Ana Heights",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Newport Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Corona Del Mar",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Villa Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Orange Park Acres",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "North Tustin",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Tustin",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Tustin Legacy",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Irvine",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "San Joaquin Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "El Modena",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Orange Park Acres",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Lower Peters Canyon",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Woodbridge",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Emerald Bay",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Laguna Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Lake Forest",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Rancho Santa Margarita",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Laguna Woods",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Aliso Viejo",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Laguna Niguel",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Monarch Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Dana Point",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Capistrano Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "San Juan Capistrano",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "San Clemente",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Rancho Mission Viejo",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Ladera Ranch",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Galivan",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Mission Viejo",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Coto De Caza",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Lake Elsinore",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Lakeland Village",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Terra Cotta",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Alberhill",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Temescal Valley",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Arcilla",
+            "x": 100,
+            "y": 100
+        }
+    ]
+}

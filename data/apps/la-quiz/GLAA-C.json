@@ -1,0 +1,469 @@
+{
+    "cities": [
+        {
+            "name": "Sherman Oaks",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "North Hollywood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Burbank",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Bel Air",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "The Getty",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Brentwood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Westwood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Beverly Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "West Hollywood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Hollywood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Central LA",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Koreatown",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Santa Monica",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Culver City",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Marina Del Rey",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Ladera Heights",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "LAX",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "El Segundo",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Hawthorne",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Inglewood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "South Los Angeles",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Glendale",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Universal Studios",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Highland Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Huntington Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "South Gate",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Willowbrook",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Lynwood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Compton",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Manhattan Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Hermosa Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Redondo Beach",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Torrance",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Carson",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Gardena",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Signal Hill",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Lakewood",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Paramount",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Downey",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Bell Gardens",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Bellflower",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Commerce",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "East Los Angeles",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Montebello",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Whittier",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Santa Fe Springs",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Pico Rivera",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Norwalk",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Cerritos",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Cypress",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Los Alamitos",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Westminster",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Stanton",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Buena Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "La Mirada",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Hacienda Heights",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "City of Industry",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Rowland Heights",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "La Habra",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Brea",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Fullerton",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Anaheim",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Disneyland",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Garden Grove",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Pasadena",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Alhambra",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Monterey Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Sierra Madre",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Arcadia",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Monrovia",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Duarte",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Rosemead",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "El Monte",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Baldwin Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "West Covina",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Azusa",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Glendora",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "San Dimas",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "La Verne",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Pomona",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Ramona",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Covina",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Walnut",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Diamond Bar",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Chino Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Sleepy Hollow",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Yorba Linda",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Placentia",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Anaheim Hills",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Villa Park",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Orange Park Acres",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "El Modena",
+            "x": 100,
+            "y": 100
+        },
+        {
+            "name": "Orange",
+            "x": 100,
+            "y": 100
+        }
+    ]
+}
