@@ -16,9 +16,6 @@ in with pkgs; rec {
             S-json = mkData "GLAA-S.json" ./data/apps/la-quiz/GLAA-S.json;
         };
     };
-    configs = {
-        book-notes = mkData "book-notes.csv" ./data/configs/book-notes.csv;
-    };
     fonts = {
         nexa = mkData "nexa.ttf" ./data/fonts/nexa.ttf;
     };
