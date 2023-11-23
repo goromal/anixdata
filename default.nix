@@ -7,13 +7,9 @@ in with pkgs; rec {
     apps = {
         la-quiz = {
             N-img = mkData "GLAA-N.png" ./data/apps/la-quiz/GLAA-N.png;
-            N-json = mkData "GLAA-N.json" ./data/apps/la-quiz/GLAA-N.json;
             E-img = mkData "GLAA-E.png" ./data/apps/la-quiz/GLAA-E.png;
-            E-json = mkData "GLAA-E.json" ./data/apps/la-quiz/GLAA-E.json;
             C-img = mkData "GLAA-C.png" ./data/apps/la-quiz/GLAA-C.png;
-            C-json = mkData "GLAA-C.json" ./data/apps/la-quiz/GLAA-C.json;
             S-img = mkData "GLAA-S.png" ./data/apps/la-quiz/GLAA-S.png;
-            S-json = mkData "GLAA-S.json" ./data/apps/la-quiz/GLAA-S.json;
         };
     };
     fonts = {
