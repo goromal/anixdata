@@ -36,6 +36,7 @@ in with pkgs; rec {
     };
     records = {
         crypt = mkData "HOhuKN.tyz" ./data/records/HOhuKN.tyz;
+        rcloneConf = mkData "rclone.conf.tyz" ./data/records/rclone.conf.tyz;
     };
     themes = {
         nordic-gtk4 = {
