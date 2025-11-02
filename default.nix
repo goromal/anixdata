@@ -16,7 +16,20 @@ in with pkgs; rec {
         nexa = mkData "nexa.ttf" ./data/fonts/nexa.ttf;
     };
     img = {
-        wallpaper      = mkData "wallpaper.png" ./data/img/wallpaper.png;
+        wallpapers = {
+            wallpaper1 = mkData "wallpaper.png" ./data/img/wallpaper1.png;
+            wallpaper2 = mkData "wallpaper.png" ./data/img/wallpaper2.png;
+            wallpaper3 = mkData "wallpaper.png" ./data/img/wallpaper3.png;
+            wallpaper4 = mkData "wallpaper.png" ./data/img/wallpaper4.png;
+            wallpaper5 = mkData "wallpaper.png" ./data/img/wallpaper5.png;
+            wallpaper6 = mkData "wallpaper.png" ./data/img/wallpaper6.png;
+            wallpaper7 = mkData "wallpaper.png" ./data/img/wallpaper7.png;
+            wallpaper8 = mkData "wallpaper.png" ./data/img/wallpaper8.png;
+            wallpaper9 = mkData "wallpaper.png" ./data/img/wallpaper9.png;
+            wallpaper10 = mkData "wallpaper.png" ./data/img/wallpaper10.png;
+            wallpaper11 = mkData "wallpaper.png" ./data/img/wallpaper11.png;
+            wallpaper12 = mkData "wallpaper.png" ./data/img/wallpaper12.png;
+        };
         ajt-logo-white = mkData "ajt.png" ./data/img/ajt.png;
         anix-logo-bmp  = mkData "anixpkgs.png" ./data/img/anixpkgs.png;
         anix-logo-svg  = mkData "anixpkgs.svg" ./data/img/anixpkgs.svg;
