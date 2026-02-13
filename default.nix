@@ -4,7 +4,7 @@ let
         inherit name data;
     };
     minWallpaperIdx = 1;
-    maxWallpaperIdx = 20;
+    maxWallpaperIdx = 26;
 in with pkgs; rec {
     apps = {
         la-quiz = {
