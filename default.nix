@@ -50,6 +50,25 @@ in with pkgs; rec {
         crypt = mkData "HOhuKN.tyz" ./data/records/HOhuKN.tyz;
         rcloneConf = mkData "rclone.conf.tyz" ./data/records/rclone.conf.tyz;
     };
+    icons = {
+        fa6-solid = {
+            arrows-rotate  = mkData "arrows-rotate.svg"  ./data/icons/fa6-solid/arrows-rotate.svg;
+            key            = mkData "key.svg"            ./data/icons/fa6-solid/key.svg;
+            piggy-bank     = mkData "piggy-bank.svg"     ./data/icons/fa6-solid/piggy-bank.svg;
+            inbox          = mkData "inbox.svg"          ./data/icons/fa6-solid/inbox.svg;
+            map-location-dot = mkData "map-location-dot.svg" ./data/icons/fa6-solid/map-location-dot.svg;
+            gears          = mkData "gears.svg"          ./data/icons/fa6-solid/gears.svg;
+            list-check     = mkData "list-check.svg"     ./data/icons/fa6-solid/list-check.svg;
+            graduation-cap = mkData "graduation-cap.svg" ./data/icons/fa6-solid/graduation-cap.svg;
+            download       = mkData "download.svg"       ./data/icons/fa6-solid/download.svg;
+            book-open      = mkData "book-open.svg"      ./data/icons/fa6-solid/book-open.svg;
+            chart-line     = mkData "chart-line.svg"     ./data/icons/fa6-solid/chart-line.svg;
+            rocket         = mkData "rocket.svg"         ./data/icons/fa6-solid/rocket.svg;
+            film           = mkData "film.svg"           ./data/icons/fa6-solid/film.svg;
+            clipboard-check = mkData "clipboard-check.svg" ./data/icons/fa6-solid/clipboard-check.svg;
+            calendar-check = mkData "calendar-check.svg" ./data/icons/fa6-solid/calendar-check.svg;
+        };
+    };
     themes = {
         nordic-gtk4 = {
             css = mkData "gtk.css" (callPackage ./data/themes/nordic-gtk4/css.nix { dark = false; });
