@@ -51,6 +51,17 @@ in with pkgs; rec {
         rcloneConf = mkData "rclone.conf.tyz" ./data/records/rclone.conf.tyz;
     };
     icons = {
+        favicons = {
+            arrows-rotate  = mkData "arrows-rotate.svg"  ./data/icons/favicons/arrows-rotate.svg;
+            key            = mkData "key.svg"            ./data/icons/favicons/key.svg;
+            piggy-bank     = mkData "piggy-bank.svg"     ./data/icons/favicons/piggy-bank.svg;
+            inbox          = mkData "inbox.svg"          ./data/icons/favicons/inbox.svg;
+            map-location-dot = mkData "map-location-dot.svg" ./data/icons/favicons/map-location-dot.svg;
+            gears          = mkData "gears.svg"          ./data/icons/favicons/gears.svg;
+            list-check     = mkData "list-check.svg"     ./data/icons/favicons/list-check.svg;
+            graduation-cap = mkData "graduation-cap.svg" ./data/icons/favicons/graduation-cap.svg;
+            download       = mkData "download.svg"       ./data/icons/favicons/download.svg;
+        };
         fa6-solid = {
             arrows-rotate  = mkData "arrows-rotate.svg"  ./data/icons/fa6-solid/arrows-rotate.svg;
             key            = mkData "key.svg"            ./data/icons/fa6-solid/key.svg;
