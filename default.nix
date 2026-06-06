@@ -78,6 +78,7 @@ in with pkgs; rec {
             film           = mkData "film.svg"           ./data/icons/fa6-solid/film.svg;
             clipboard-check = mkData "clipboard-check.svg" ./data/icons/fa6-solid/clipboard-check.svg;
             calendar-check = mkData "calendar-check.svg" ./data/icons/fa6-solid/calendar-check.svg;
+            house          = mkData "house.svg"          ./data/icons/fa6-solid/house.svg;
         };
     };
     themes = {
