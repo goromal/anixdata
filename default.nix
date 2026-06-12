@@ -61,6 +61,7 @@ in with pkgs; rec {
             list-check     = mkData "list-check.svg"     ./data/icons/favicons/list-check.svg;
             graduation-cap = mkData "graduation-cap.svg" ./data/icons/favicons/graduation-cap.svg;
             download       = mkData "download.svg"       ./data/icons/favicons/download.svg;
+            folder         = mkData "folder.svg"         ./data/icons/favicons/folder.svg;
         };
         fa6-solid = {
             arrows-rotate  = mkData "arrows-rotate.svg"  ./data/icons/fa6-solid/arrows-rotate.svg;
@@ -80,6 +81,7 @@ in with pkgs; rec {
             calendar-check = mkData "calendar-check.svg" ./data/icons/fa6-solid/calendar-check.svg;
             house          = mkData "house.svg"          ./data/icons/fa6-solid/house.svg;
             server         = mkData "server.svg"         ./data/icons/fa6-solid/server.svg;
+            folder         = mkData "folder.svg"         ./data/icons/fa6-solid/folder.svg;
         };
     };
     themes = {
