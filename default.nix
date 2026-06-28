@@ -63,6 +63,7 @@ in with pkgs; rec {
             download       = mkData "download.svg"       ./data/icons/favicons/download.svg;
             folder         = mkData "folder.svg"         ./data/icons/favicons/folder.svg;
             tv             = mkData "tv.svg"             ./data/icons/favicons/tv.svg;
+            music          = mkData "music.svg"          ./data/icons/favicons/music.svg;
         };
         fa6-solid = {
             arrows-rotate  = mkData "arrows-rotate.svg"  ./data/icons/fa6-solid/arrows-rotate.svg;
@@ -84,6 +85,7 @@ in with pkgs; rec {
             server         = mkData "server.svg"         ./data/icons/fa6-solid/server.svg;
             folder         = mkData "folder.svg"         ./data/icons/fa6-solid/folder.svg;
             tv             = mkData "tv.svg"             ./data/icons/fa6-solid/tv.svg;
+            music          = mkData "music.svg"          ./data/icons/fa6-solid/music.svg;
         };
     };
     themes = {
