@@ -65,6 +65,7 @@ in with pkgs; rec {
             tv             = mkData "tv.svg"             ./data/icons/favicons/tv.svg;
             music          = mkData "music.svg"          ./data/icons/favicons/music.svg;
             gamepad        = mkData "gamepad.svg"        ./data/icons/favicons/gamepad.svg;
+            ranking-star   = mkData "ranking-star.svg"   ./data/icons/favicons/ranking-star.svg;
         };
         fa6-solid = {
             arrows-rotate  = mkData "arrows-rotate.svg"  ./data/icons/fa6-solid/arrows-rotate.svg;
@@ -88,6 +89,7 @@ in with pkgs; rec {
             tv             = mkData "tv.svg"             ./data/icons/fa6-solid/tv.svg;
             music          = mkData "music.svg"          ./data/icons/fa6-solid/music.svg;
             gamepad        = mkData "gamepad.svg"        ./data/icons/fa6-solid/gamepad.svg;
+            ranking-star   = mkData "ranking-star.svg"   ./data/icons/fa6-solid/ranking-star.svg;
         };
     };
     themes = {
