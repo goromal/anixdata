@@ -59,6 +59,7 @@ in with pkgs; rec {
             map-location-dot = mkData "map-location-dot.svg" ./data/icons/favicons/map-location-dot.svg;
             gears          = mkData "gears.svg"          ./data/icons/favicons/gears.svg;
             list-check     = mkData "list-check.svg"     ./data/icons/favicons/list-check.svg;
+            envelope       = mkData "envelope.svg"       ./data/icons/favicons/envelope.svg;
             graduation-cap = mkData "graduation-cap.svg" ./data/icons/favicons/graduation-cap.svg;
             download       = mkData "download.svg"       ./data/icons/favicons/download.svg;
             folder         = mkData "folder.svg"         ./data/icons/favicons/folder.svg;
@@ -75,6 +76,7 @@ in with pkgs; rec {
             map-location-dot = mkData "map-location-dot.svg" ./data/icons/fa6-solid/map-location-dot.svg;
             gears          = mkData "gears.svg"          ./data/icons/fa6-solid/gears.svg;
             list-check     = mkData "list-check.svg"     ./data/icons/fa6-solid/list-check.svg;
+            envelope       = mkData "envelope.svg"       ./data/icons/fa6-solid/envelope.svg;
             graduation-cap = mkData "graduation-cap.svg" ./data/icons/fa6-solid/graduation-cap.svg;
             download       = mkData "download.svg"       ./data/icons/fa6-solid/download.svg;
             book-open      = mkData "book-open.svg"      ./data/icons/fa6-solid/book-open.svg;
