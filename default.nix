@@ -28,6 +28,7 @@ in with pkgs; rec {
             ) (maxWallpaperIdx - minWallpaperIdx + 1)
         )) // { inherit minWallpaperIdx maxWallpaperIdx; };
         ajt-logo-white = mkData "ajt.png" ./data/img/ajt.png;
+        ajt-logo-outline = mkData "ajt_outline.png" ./data/img/ajt_outline.png;
         anix-logo-bmp  = mkData "anixpkgs.png" ./data/img/anixpkgs.png;
         anix-logo-svg  = mkData "anixpkgs.svg" ./data/img/anixpkgs.svg;
         anix-logo-white-bmp  = mkData "anixpkgs.png" ./data/img/anixpkgs_white.png;
