@@ -52,6 +52,10 @@ in with pkgs; rec {
         rcloneConf = mkData "rclone.conf.tyz" ./data/records/rclone.conf.tyz;
     };
     icons = {
+        apps = {
+            home-vpn = mkData "home-vpn.png" ./data/icons/apps/home-vpn.png;
+            folio = mkData "folio.png" ./data/icons/apps/folio.png;
+        };
         favicons = {
             arrows-rotate  = mkData "arrows-rotate.svg"  ./data/icons/favicons/arrows-rotate.svg;
             key            = mkData "key.svg"            ./data/icons/favicons/key.svg;
