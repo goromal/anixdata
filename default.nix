@@ -14,6 +14,13 @@ in with pkgs; rec {
             S-img = mkData "GLAA-S.png" ./data/apps/la-quiz/GLAA-S.png;
         };
     };
+    dashboards = {
+        # Pinned upstream export of grafana.com dashboard #1860 ("Node Exporter
+        # Full"), consumed by anixpkgs' metricsNode module. It lives here rather
+        # than in anixpkgs because every host fetches the anixpkgs tarball on
+        # every upgrade, and this single file is ~10% of that repo's content.
+        node-exporter-full = mkData "node-exporter-full.json" ./data/dashboards/node-exporter-full.json;
+    };
     fonts = {
         nexa = mkData "nexa.ttf" ./data/fonts/nexa.ttf;
     };
