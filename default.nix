@@ -21,6 +21,11 @@ in with pkgs; rec {
         # every upgrade, and this single file is ~10% of that repo's content.
         node-exporter-full = mkData "node-exporter-full.json" ./data/dashboards/node-exporter-full.json;
     };
+    web = {
+        anix-theme = mkData "anix-theme.css" ./data/web/anix-theme.css;
+        landing = mkData "landing.css" ./data/web/landing.css;
+        page-controls = mkData "page-controls.css" ./data/web/page-controls.css;
+    };
     fonts = {
         nexa = mkData "nexa.ttf" ./data/fonts/nexa.ttf;
     };
