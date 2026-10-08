@@ -15,6 +15,7 @@
 :root[data-anix-theme="light"] main > nav a.active { color: #ffffff !important; }
 :root[data-anix-theme="dark"] :is(.bg-light,.bg-white) { background-color: var(--anix-surface-alt) !important; color: var(--anix-text) !important; }
 :root[data-anix-theme="dark"] .service-group { background-image: none !important; }
+:root[data-anix-theme="dark"] .nexus-link:hover { background: var(--anix-surface-alt); }
 :root[data-anix-theme="dark"] :is(.survey-results,.survey-section) { background: var(--anix-surface) !important; color: var(--anix-text) !important; }
 :root[data-anix-theme="dark"] .survey-results { border-color: var(--anix-border) !important; }
 :root[data-anix-theme] .survey-summary { color: #111827 !important; }
