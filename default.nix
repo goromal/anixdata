@@ -20,6 +20,10 @@ in with pkgs; rec {
         # than in anixpkgs because every host fetches the anixpkgs tarball on
         # every upgrade, and this single file is ~10% of that repo's content.
         node-exporter-full = mkData "node-exporter-full.json" ./data/dashboards/node-exporter-full.json;
+        # Hand-authored dashboard for github.com/burk3/nix-exporter (which ships
+        # none): Nix store, daemon, build and upkeep metrics. Queries Prometheus
+        # by anixpkgs' pinned `anix-prometheus` uid.
+        nix-exporter = mkData "nix-exporter.json" ./data/dashboards/nix-exporter.json;
     };
     web = {
         anix-theme = mkData "anix-theme.css" ./data/web/anix-theme.css;
