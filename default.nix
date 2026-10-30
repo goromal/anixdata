@@ -63,6 +63,15 @@ in with pkgs; rec {
             weights = mkData "weights.caffemodel" ./data/models/gender/weights.caffemodel;
         };
     };
+    media = {
+        # Regression fixtures for bit-rs checks. Each clip has a .json of
+        # expected answers next to it, so the clip and what it should
+        # produce always change together.
+        bitd = {
+            cozy-video-dolphins = mkData "cozy-video-dolphins.mp4" ./data/media/bitd/cozy-video-dolphins.mp4;
+            cozy-video-dolphins-expect = mkData "cozy-video-dolphins.json" ./data/media/bitd/cozy-video-dolphins.json;
+        };
+    };
     records = {
         crypt = mkData "HOhuKN.tyz" ./data/records/HOhuKN.tyz;
         rcloneConf = mkData "rclone.conf.tyz" ./data/records/rclone.conf.tyz;
