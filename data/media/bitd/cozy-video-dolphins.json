@@ -1,0 +1,8 @@
+{
+  "_about": "Expected answers for cozy-video-dolphins.mp4, used by bit-rs' cozy_video regression. A 13.85 s cut (8.2-22.0 s) of scrape-tests/sample_960x400_ocean_with_audio.webm, re-encoded to 480x200 H.264/AAC. Times are seconds into this clip. Dolphins are on screen from about 7.5 s to 10.2 s. The negative windows contain unambiguous non-matches: gannets in the open sky, and the sardine bait ball seen from above the surface. The frames between them (splashes, fish schools) are left unchecked because a vision model can reasonably confuse them.",
+  "prompt": "dolphins swimming underwater",
+  "stride": 2,
+  "precision": 1,
+  "match": {"start": 7.5, "end": 10.0, "tolerance": 1.5},
+  "negatives": [[0.0, 2.0], [10.75, 13.8]]
+}

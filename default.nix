@@ -63,6 +63,15 @@ in with pkgs; rec {
             weights = mkData "weights.caffemodel" ./data/models/gender/weights.caffemodel;
         };
     };
+    media = {
+        # Regression fixtures for bit-rs checks. Each clip has a .json of
+        # expected answers next to it, so the clip and what it should
+        # produce always change together.
+        bitd = {
+            cozy-video-dolphins = mkData "cozy-video-dolphins.mp4" ./data/media/bitd/cozy-video-dolphins.mp4;
+            cozy-video-dolphins-expect = mkData "cozy-video-dolphins.json" ./data/media/bitd/cozy-video-dolphins.json;
+        };
+    };
     records = {
         crypt = mkData "HOhuKN.tyz" ./data/records/HOhuKN.tyz;
         rcloneConf = mkData "rclone.conf.tyz" ./data/records/rclone.conf.tyz;
@@ -78,6 +87,7 @@ in with pkgs; rec {
             piggy-bank     = mkData "piggy-bank.svg"     ./data/icons/favicons/piggy-bank.svg;
             inbox          = mkData "inbox.svg"          ./data/icons/favicons/inbox.svg;
             brain          = mkData "brain.svg"          ./data/icons/favicons/brain.svg;
+            comment-dots   = mkData "comment-dots.svg"   ./data/icons/favicons/comment-dots.svg;
             map-location-dot = mkData "map-location-dot.svg" ./data/icons/favicons/map-location-dot.svg;
             gears          = mkData "gears.svg"          ./data/icons/favicons/gears.svg;
             list-check     = mkData "list-check.svg"     ./data/icons/favicons/list-check.svg;
@@ -97,6 +107,7 @@ in with pkgs; rec {
             piggy-bank     = mkData "piggy-bank.svg"     ./data/icons/fa6-solid/piggy-bank.svg;
             inbox          = mkData "inbox.svg"          ./data/icons/fa6-solid/inbox.svg;
             brain          = mkData "brain.svg"          ./data/icons/fa6-solid/brain.svg;
+            comment-dots   = mkData "comment-dots.svg"   ./data/icons/fa6-solid/comment-dots.svg;
             map-location-dot = mkData "map-location-dot.svg" ./data/icons/fa6-solid/map-location-dot.svg;
             gears          = mkData "gears.svg"          ./data/icons/fa6-solid/gears.svg;
             list-check     = mkData "list-check.svg"     ./data/icons/fa6-solid/list-check.svg;
